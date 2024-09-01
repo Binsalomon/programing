@@ -12,6 +12,7 @@ using namespace std;
     char choice;
 	char chice2;
     double balance = 0;
+    double withdraw = 0.0;
 
           cout << "Hi! Welcome to the ATM Machine! \n\n";
 
@@ -67,6 +68,7 @@ using namespace std;
 
                             case '2':
                                 int withdraw;
+				double withdraw;
                                 cout << "Amount of withdrawal: $ ";
                                 cin >> withdraw;
 
